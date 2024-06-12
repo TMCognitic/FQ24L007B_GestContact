@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FQ24L007B GestContact</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="~/home/index">FQ24L007B GestContact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="~/home/contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="~/auth/login">S'authentifier</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="~/auth/register">S'enregistrer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="~/contact/">Gérer ses contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <form>
+                        <div class="form-group">
+                            <label class="control-label">Nom : </label>
+                            <input type="text" name="Nom" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Prénom : </label>
+                            <input type="text" name="Prenom" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Email : </label>
+                            <input type="email" name="Email" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Mot de passe : </label>
+                            <input type="password" name="Passwd" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="Créer un compte" class="btn btn-primary mt-2" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Morre Thierry
+        </div>
+    </footer>
+</body>
+</html>
